@@ -1,0 +1,29 @@
+body {
+  font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
+
+h1{
+  margin-bottom: 4rem;
+}
+
+#stage {
+  position: relative;
+  width:15%;
+  margin: auto;
+}
+
+#stage img {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.item {
+  margin-bottom: 2rem;
+}
+
+.item p {
+  font-weight: bold;
+}

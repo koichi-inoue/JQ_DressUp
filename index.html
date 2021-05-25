@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dress-up Guitar</title>
+  <link href="style.css" rel="stylesheet" >
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <h1>Dress-up Guitar</h1>
+
+  <div id="stage">
+    <img id="head" src="images/head01.png" />
+    <img id="neck" src="images/neck01.png" />
+    <img id="body" src="images/body01.png" />
+  </div>
+
+  <div id="selector">
+
+    <div class="item">
+      <p>HEAD</p>
+      <input type="radio" name="ghead" value="head01" checked>Normal
+      <input type="radio" name="ghead" value="head02">Gray
+      <input type="radio" name="ghead" value="head03">Black
+    </div>
+
+    <div class="item">
+      <p>NECK</p>
+      <input type="radio" name="gneck" value="neck01" checked>Maple
+      <input type="radio" name="gneck" value="neck02">Rose
+      <input type="radio" name="gneck" value="neck03">Ebony
+    </div>
+
+    <div class="item">
+      <p>BODY</p>
+      <input type="radio" name="gbody" value="body01" checked>Sunburst
+      <input type="radio" name="gbody" value="body02">Black
+      <input type="radio" name="gbody" value="body03">White
+      <input type="radio" name="gbody" value="body04">Red
+      <input type="radio" name="gbody" value="body05">Silver
+    </div>
+
+  </div>
+
+</body>
+
+</html>
